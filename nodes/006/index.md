@@ -7,10 +7,76 @@
 > Author: `Zekai Lin`
 >
 > Resently Update: `Oct.4 23` `16:18`
+>
+> [`slide`](../../res/lec05_floats.pdf)
 
 ## Keys
 
-- float conversion
+``` plantext
+
+Fractional Binary Number
+    General Culculation
+
+IEEE 754
+  representation
+    num form
+      s: sign
+      M: Manitssa
+      E: Exponent weighs power of two
+
+    encoding
+      MSB s 
+      exp E
+      frac M
+  
+  Precision options:
+    32-bits: 
+      7 decimal digits, 10^±38
+
+    64-bits: 
+      16 decimal digits, 10^±308
+
+    other:
+      Half precision (16-bits)
+      Quad precision (128-bits): long double
+  
+Three kind of floating point numbers:
+
+  denormalied
+
+  nomorlized
+  
+  special
+
+  C float encoding example (num encode convertion)
+
+---------
+
+Floating point arithmetic
+  
+  basic idea
+
+  rounding compare
+    basic mathmatical rounding
+    rounding binary (round to nearest 1/4)
+    
+  Floating point multiplication
+
+  Floating point addition
+
+  Floating point arithmetic quirks
+
+  Floating point in C
+
+  Floating point addition
+
+  Floating point arithmetic quirks
+
+    Floating point in C
+
+    Floating point casting quirks
+
+```
 
 ## Fractional Binary Numbers
 

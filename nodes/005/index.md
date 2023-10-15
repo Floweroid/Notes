@@ -1,19 +1,51 @@
-# User Interfaces List
+# SRS documentation
 
 > A List of User Interfaces
 >
-> Tags: [`ColorWar`](../../view/ColorWar/index.md)
+> Tags: [`2D Rougelike Game`](../ColorWar/index.md) [`CIS 454`](../CIS454/index.md)
 >  
 > Author: `Zekai Lin`
 >
 > Resently Update: `Oct.4 23` `16:18`
 
+## Outline
+
+``` plain text
+
+Outline
+
+Definition
+
+Interface
+
+System Structure
+
+
+
+UML diagrams
+
+Requirement
+
+
+```
+
 ## Definitions
 
-| Word | Similar Word | Definition |
-|:-:   |   :-:        |   :-:      |
-| player |            | the 2D object operate by character |
-|Mosnter | enemy |  the 2D Object operate by AI |
+| Father |   Word   | Similar Word |             Definition             |    Child     |
+| :----: | :------: | :----------: | :--------------------------------: | :----------: |
+|        | `player` |  Character   | the 2D object operate by character |              |
+|        | `enemy`  |   Mosnter    |    the 2D Object operate by AI     |              |
+|        |  `drop`  |              |                                    | `exp`,`coin` |
+| `drop` |  `exp`   |              |                                    |              |
+| `drop` |  `coin`  |              |                                    |              |
+|        |  `gun`   |              |                                    |              |
+|        | `bullet` |              |                                    |              |
+|        |  `map`   |              |                                    |   `trail`    |
+| `map`  | `trail`  |              | Area Player can pick and try guns  |              |
+|        |          |              |                                    |              |
+
+
+||||||
 
 ``` plaintext
 
@@ -23,7 +55,8 @@ monster
     enemy
 
 drops
-    pigment
+  exp
+  coin
 
 attack
     linary
@@ -33,7 +66,9 @@ wall
 
 ```
 
-## General Interfaces List
+## Interface List
+
+### General Interfaces List
 
 ``` yaml
 General:
@@ -114,4 +149,4 @@ game:
 
 ```
 
-
+### Interfaces

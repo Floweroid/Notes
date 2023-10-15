@@ -6,58 +6,38 @@
 >
 > Resently Update: `Oct.4 23` `16:18`
 
-``` graphviz
+```mermaid
 
-digraph G {
+graph LR;
+    
+    C["programing language C"]
 
-    rankdir=LR // Set the orientation to left-to-right
+    CIS.341--> C; 
 
-    // Nodes
+    C --> C_Basics
 
-    // subject name
-    CIS341 [label="CIS.341"]
+    C --> C_ptr&arr
 
-    // C related
-    C [label="programming language C"]
-    C_Basics [label="C_Basics"]
-    C_ptr_arr [label="C_ptr&arr"]
-    C_Memory_Management [label="C_Memory_Management"]
+    C --> C_Memory_Management
 
-    // data_representation
-    data_representation [label="data_representation"]
-    Bits_bytes [label="Bits&bytes"]
-    Integer [label="Integer"]
-    float [label="float"]
+    CIS.341 --> data_representation 
+    
+    data_representation --> Bits&bytes
 
-    //
-    Machine [label="Machine"]
-    Machine_organization [label="Machine_organization"]
-    Instruction_control_flow_1 [label="Instruction-control_flow_1"]
-    Instruction_control_flow_2 [label="Instruction-control_flow_2"]
-    Procedures [label="Procedures"]
+    data_representation --> Integer
 
-    // CIS 341
-    CIS341 -> C
-    CIS341 -> data_representation
-    CIS341 -> Machine
+    data_representation --> float
 
-    // C 
-    C -> C_Basics
-    C -> C_ptr_arr
-    C -> C_Memory_Management
+    CIS.341 --> Machine
 
+    Machine --> Machine_organization
 
-    // data_representation
-    data_representation -> Bits_bytes
-    data_representation -> Integer
-    data_representation -> float
+    Machine --> Instruction-control_flow_1
 
-    // Machine
-    Machine -> Machine_organization
-    Machine -> Instruction_control_flow_1
-    Machine -> Instruction_control_flow_2
-    Machine -> Procedures
-}
+    Machine --> Instruction-control_flow_2
+
+    Machine --> Procedures
+
 
 ```
 
