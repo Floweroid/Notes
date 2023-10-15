@@ -20,9 +20,9 @@
 
 | link                                                        |  time   |    date     |
 | :---------------------------------------------------------- | :-----: | :---------: |
-| [SRS Documentation](../../nodes/005/index.md)               | `16:10` | `Oct.6 23`  |
+| [SRS Documentation](../../nodes/005/index.md)               | `16:10` | `Oct.16 23`  |
 | [Project Resources Online](../../nodes/007/index.md)        | `17:22` | `Oct.13 23` |
-| [Midterm Prototype Demonstration](../../nodes/008/index.md) | `16:01` | `Oct.15 23` |
+| [Midterm Prototype Demonstration](../../nodes/008/index.md) | `16:01` | `Oct.16 23` |
 |                                                             |         |             |
 
 ||||
