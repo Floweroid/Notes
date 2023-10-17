@@ -70,6 +70,21 @@
 
 ### ppt 大纲 以及任务分配 (暂定)
 
+Welcome `1 min`
+
+- intro
+
+- Group Memeber
+
+- project quick flash
+
+- *Why change project
+
+  - Risk Management
+  - Skill
+
+- Outline Introduction
+
 demo 演示 `4 min` `Zhenyang Li` && `Shizhan Ma`
 
 - trail
@@ -99,6 +114,7 @@ SRS `5 min` `Zekai Lin` && `Wentao Chen`
 - definition `2 min`
   
 - requirement
+  - backgroud
   - map
   - player
   - gun
@@ -114,3 +130,28 @@ design pattern `5 min` `Shizhan Ma` && `Zhenyang Li`
   - unity framework
   - prefabs
     - asset store
+
+Implementing Plan `2 min` `Zekai Lin`
+
+- add scanes
+
+  - Main Features
+
+    - main menu
+    - battle field
+    - enemies
+    - Score Record
+
+  - More Fun
+  
+    - Level up
+    - Drop Item
+    - More Guns and More Bullet
+    - More Character
+  
+  - Better View
+
+    - Better UI
+    - Better Interactive Logic
+
+Thanks for watching
