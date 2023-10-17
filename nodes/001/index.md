@@ -34,6 +34,7 @@
 ## C syntax - main
 
 When a C program starts:
+当 一个 C 项目    运行时：
 
 - C executable a.out is loaded into memory by the operating system
 - OS and C runtime library sets up the environment for the program to run,
