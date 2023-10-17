@@ -8,12 +8,14 @@
 >
 > Resently Update: `Oct.4 23` `21:19`
 
-| Symbol  |         Usage                           |
-|:-------:|:---------------------------------------:|
-| &x      | address of x                            |
-| type *p | initialized pointer                     |
-| p = &x  | pointer p point to the address of x     |
-| *p      | Change the value in the address point to|
+|    Symbol     |                     Usage                      |
+| :-----------: | :--------------------------------------------: |
+|      &x       |                  address of x                  |
+|    type *p    |              initialized pointer               |
+|    p = &x     |      pointer p point to the address of x       |
+|      *p       |    Change the value in the address point to    |
+| a = arr[n], a | a indicate the memory address, similar to a[0] |
+|               |                                                |
 
 ## Memory is a Single Huge Array
 
